@@ -1,0 +1,75 @@
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### Local History for Visual Studio Code ###
+.history/
+
+### Built Visual Studio Code Extensions ###
+*.vsix
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Output of 'npm pack'
+*.tgz
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+### Python Patch ###
+# Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
+*.pyc
+
+### Playwright ###
+playwright-log.txt
+
+### Robotframework ###
+log.html
+output.xml
+report.html
+selenium-screenshot-*.png
+*.png
+
+### Environments ###
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*/browser/*
+
+# mkdocs documentation
+/site
+
+###-----Custom settings-----###
+
+# Custom in this project
+/sandbox
+/reports/*
+/results/*
+*.xml
+*.log
+*.exe
+
+#Temp excel files
+~$*
+
+#key files
+*.key
