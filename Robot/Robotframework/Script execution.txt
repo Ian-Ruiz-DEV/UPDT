@@ -1,1 +1,1 @@
-robot --outputdir ../results TC001_Test.robot
+robot --outputdir ../results testcases/ts01_test.robot
