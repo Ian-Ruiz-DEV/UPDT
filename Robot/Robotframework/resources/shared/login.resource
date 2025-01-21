@@ -13,7 +13,7 @@ ${button_login}    //input[@id="login-button"]
 ${products_label}    //span[contains(text(),'Products')]
 
 *** Keywords ***
-COM001 - Abrir Navegador a Iniciar Sesión
+Abrir pagina de inicio de sesión
     # Abre el navegador y se dirige a la pagina
     Step    Abrir navegador y dirigirse a "https://www.saucedemo.com/"
     Open Browser    https://www.saucedemo.com/    Chrome
